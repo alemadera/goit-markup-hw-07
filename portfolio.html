@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"/>
-    <link rel="stylesheet" href="css/styles.css"/>
+    <link rel="stylesheet" href="./sass/main.min.css"/>
   </head>
   <body>
     <header class="header">
@@ -40,10 +40,10 @@
         <h2 class="filter__subtitle" style="display: none">Filtro Portafolio</h2>
         <ul class="filter__list list">
           <li class="filter__item"><button class="filter__button filter__button-current" type="button">Todo</button></li>
-          <li class="filter__item"><button class="filter__button current" type="button">Sitios-web</button></li>
-          <li class="filter__item"><button class="filter__button current" type="button">Aplicaciones</button></li>
-          <li class="filter__item"><button class="filter__button current" type="button">Diseño</button></li>
-          <li class="filter__item"><button class="filter__button current" type="button">Marketing</button></li>
+          <li class="filter__item"><button class="filter__button" type="button">Sitios-web</button></li>
+          <li class="filter__item"><button class="filter__button" type="button">Aplicaciones</button></li>
+          <li class="filter__item"><button class="filter__button" type="button">Diseño</button></li>
+          <li class="filter__item"><button class="filter__button" type="button">Marketing</button></li>
         </ul>
         <ul class="gallery__list list">
           <li class="gallery__item">
@@ -141,7 +141,7 @@
       </section>
     </main>
     <footer class="footer">
-      <div class="footer__container container">
+      <div class="container">
         <div class="footer__section">
         <ul class="footer__list list">
           <li class="footer__item">
@@ -156,7 +156,7 @@
           </address>
         </li>
         </ul>
-        <div class= "footer-follow p-0">
+        <div class= "footer__follow p-0">
           <h3 class="follow__title">ENCUENTRENOS EN</h3>
           <ul class="follow__list list p-0">
             <li class="follow__item">
@@ -189,11 +189,11 @@
             </li>
           </ul>
         </div>
-        <div class= "footer_suscribe p-0">
-          <h3 class="suscribe__title">SUSCRÍBASE AL BOLETÍN INFORMATIVO</h3>
-          <form class="suscribe__form">
-              <input class="suscribe__input" type="email" name="email" placeholder="Correo electrónico"/>
-              <button class="subscribe__button" type="submit">Suscríbase<svg class="subscribe-icon" wigth="24px" height="24px">
+        <div class= "footer__subscribe p-0">
+          <h3 class="subscribe__title">SUSCRÍBASE AL BOLETÍN INFORMATIVO</h3>
+          <form class="subscribe__form">
+              <input class="subscribe__input" type="email" name="email" placeholder="Correo electrónico"/>
+              <button class="subscribe__button" type="submit">Suscríbase<svg class="subscribe__icon" wigth="24px" height="24px">
                 <use href="./images/icons.svg#icon-enviar"></use></svg>
               </button>
           </form>

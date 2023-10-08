@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"/>
-  <link rel="stylesheet" href="css/styles.css"/>
+  <link rel="stylesheet" href="./sass/main.min.css"/>
 </head>
 <body>
   <header class="header">
@@ -41,8 +41,8 @@
         <button class="main__button" type="button" data-modal-open="">Solicite nuestro servicio</button>
       </div>
     </section>
-    <section>
-      <div class="benefit container section">
+    <section class="benefit">
+      <div class="container section">
         <h2 style="display: none;">Beneficios</h2>
         <ul class="benefit__list list">  
           <li class="benefit__item">
@@ -314,7 +314,7 @@
         </address>
       </li>
       </ul>
-      <div class= "footer-follow p-0">
+      <div class= "footer__follow p-0">
         <h3 class="follow__title">ENCUENTRENOS EN</h3>
         <ul class="follow__list list p-0">
           <li class="follow__item">
@@ -347,11 +347,11 @@
           </li>
         </ul>
       </div>
-      <div class= "footer_suscribe p-0">
-        <h3 class="suscribe__title">SUSCRÍBASE AL BOLETÍN INFORMATIVO</h3>
-        <form class="suscribe__form">
-            <input class="suscribe__input" type="email" name="email" placeholder="Correo electrónico"/>
-            <button class="subscribe__button" type="submit">Suscríbase<svg class="subscribe-icon" wigth="24px" height="24px">
+      <div class= "footer__subscribe p-0">
+        <h3 class="subscribe__title">SUSCRÍBASE AL BOLETÍN INFORMATIVO</h3>
+        <form class="subscribe__form">
+            <input class="subscribe__input" type="email" name="email" placeholder="Correo electrónico"/>
+            <button class="subscribe__button" type="submit">Suscríbase<svg class="subscribe__icon" wigth="24px" height="24px">
               <use href="./images/icons.svg#icon-enviar"></use></svg>
             </button>
         </form>
